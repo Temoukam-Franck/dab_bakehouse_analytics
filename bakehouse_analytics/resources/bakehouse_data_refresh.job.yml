@@ -28,7 +28,7 @@ resources:
           
         - task_key: transaction_summary
           depends_on:
-            - task_key: notebook_task
+            - task_key: customer_360
           notebook_task:
             notebook_path: ../src/transactions_summary.ipynb
             
