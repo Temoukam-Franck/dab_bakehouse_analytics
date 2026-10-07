@@ -20,11 +20,9 @@ resources:
           default: ${var.catalog}
         - name: schema
           default: ${var.schema}
-
-      tasks:
-        - task_key: notebook_task
-          notebook_task:
-            notebook_path: ../src/customer_360.ipynb
+      
+     
+            
 
       environments:
         - environment_key: default
